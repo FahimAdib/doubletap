@@ -1,19 +1,25 @@
 import React from "react";
 import "./Header.css";
-import logo_1 from "./images/logo_1.png";
-import logo_2 from "./images/logo_2.png";
+import logo from "./images/logo.png";
 
 function Header() {
   return (
     <div className="header">
-      <div className="logo_container">
-        <img src={logo_2}></img>
-        <img src={logo_1}></img>
-      </div>
-      <div className="button_container">
-        <button className="header_button">Home</button>
-        <button className="header_button">Categories</button>
-        <button className="header_button">Place Order</button>
+      <div className="header-container">
+        <a className="logo_container" href="#">
+          <img src={logo}></img>
+          <div className="header-text-container">
+            <div className="header-text-colored">D</div>
+            <div className="header-text-white">ouble</div>
+            <div className="header-text-colored">T</div>
+            <div className="header-text-white">ap</div>
+          </div>
+        </a>
+        <div className="button_container">
+          <button className="header_button">Home</button>
+          <button className="header_button">Categories</button>
+          <button className="header_button">Place Order</button>
+        </div>
       </div>
     </div>
   );
