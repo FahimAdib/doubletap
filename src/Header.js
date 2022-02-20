@@ -6,8 +6,8 @@ function Header() {
   return (
     <div className="header">
       <div className="header-container">
-        <a className="logo_container" href="#">
-          <img src={logo}></img>
+        <a className="logo_container" href="http://localhost:3000/">
+          <img src={logo} alt="logo"></img>
           <div className="header-text-container">
             <div className="header-text-colored">D</div>
             <div className="header-text-white">ouble</div>
