@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/doubletap/static/css/main.c574d6b2.chunk.css",
-    "main.js": "/doubletap/static/js/main.72432d54.chunk.js",
-    "main.js.map": "/doubletap/static/js/main.72432d54.chunk.js.map",
+    "main.css": "/doubletap/static/css/main.7dfa5836.chunk.css",
+    "main.js": "/doubletap/static/js/main.4933a201.chunk.js",
+    "main.js.map": "/doubletap/static/js/main.4933a201.chunk.js.map",
     "runtime~main.js": "/doubletap/static/js/runtime~main.170c4840.js",
     "runtime~main.js.map": "/doubletap/static/js/runtime~main.170c4840.js.map",
     "static/js/2.b3721e62.chunk.js": "/doubletap/static/js/2.b3721e62.chunk.js",
     "static/js/2.b3721e62.chunk.js.map": "/doubletap/static/js/2.b3721e62.chunk.js.map",
     "index.html": "/doubletap/index.html",
-    "precache-manifest.95d2d1a90b8b218b12b3844afe2c4b79.js": "/doubletap/precache-manifest.95d2d1a90b8b218b12b3844afe2c4b79.js",
+    "precache-manifest.2ffb30aee4c4443cdf6ad6bbc1e67036.js": "/doubletap/precache-manifest.2ffb30aee4c4443cdf6ad6bbc1e67036.js",
     "service-worker.js": "/doubletap/service-worker.js",
-    "static/css/main.c574d6b2.chunk.css.map": "/doubletap/static/css/main.c574d6b2.chunk.css.map",
+    "static/css/main.7dfa5836.chunk.css.map": "/doubletap/static/css/main.7dfa5836.chunk.css.map",
     "static/media/1.jpg": "/doubletap/static/media/1.a41ea85a.jpg"
   }
 }
