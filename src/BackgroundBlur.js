@@ -8,9 +8,9 @@ function BackgroundBlur({ showModal }) {
       {showModal && (
         <motion.div
           key="modal"
-          initial={{ opacity: 0 }}
+          initial={{ opacity: 0.2 }}
           animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
+          exit={{ opacity: 0.2 }}
           className="blur-background"
         ></motion.div>
       )}
