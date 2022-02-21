@@ -1,18 +1,33 @@
+/* Style the counter cards */
+.all-products-grid-container {
+  margin-top: 4rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.all-products-header {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  margin-left: 1.5%;
+  color: #0e1f33;
+}
+
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 18%;
+  width: 17%;
   display: flex;
   justify-content: center;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
   padding-bottom: 20px;
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding-bottom: 0px;
-  text-align: center;
-  background-color: #f1f1f1;
+
   border-radius: 2.5%;
   overflow: hidden;
 
@@ -20,17 +35,17 @@
 }
 
 .column:hover {
-  transform: scale(1.05, 1.05);
-  transition: 200ms ease-in-out;
+  transform: scale(1.08, 1.08);
+  transition: 180ms ease-in-out;
 }
 
 @media screen and (max-width: 1200px) {
   .column {
-    width: 22.5%;
+    width: 21%;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 850px) {
   .column {
     width: 30%;
   }
@@ -39,14 +54,9 @@
 /* Remove extra left and right margins, due to padding */
 
 /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* Responsive columns */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
   .column {
     width: 100%;
     display: block;
@@ -57,18 +67,4 @@
     transform: none;
     transition: none;
   }
-}
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: white;
-}
-
-.all-products-grid-container {
-  padding-top: 50px;
-  width: 80%;
-  margin: auto;
 }

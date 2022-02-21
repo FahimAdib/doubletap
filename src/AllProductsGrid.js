@@ -12,6 +12,7 @@ function AllProductsGrid() {
 
   return (
     <div className="all-products-grid-container">
+      <div className="all-products-header">All Products</div>
       <div className="row">
         {products.map((product) => (
           <div
