@@ -1,0 +1,32 @@
+.product-modal-container {
+  /* animation: zoomin 0.5s; */
+  width: 70vw;
+  height: 70vh;
+  background: white;
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  overflow: hidden;
+  padding: 20px;
+  display: flex;
+}
+
+@keyframes zoomin {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.product-text-box {
+  margin: 20px;
+}
+
+.product-modal-image > img {
+  max-height: 100%;
+  max-width: 100%;
+}

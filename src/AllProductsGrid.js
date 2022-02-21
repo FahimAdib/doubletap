@@ -1,46 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import ProductCard from "./ProductCard";
 import "./AllProductsGrid.css";
+import ProductModal from "./ProductModal";
+import BackgroundBlur from "./BackgroundBlur";
 import products from "./products.json";
+import { motion, AnimatePresence } from "framer-motion";
 
 function AllProductsGrid() {
+  const [showModal, setShowModal] = useState();
+  const [currentCard, setCurrentCard] = useState();
+
   return (
     <div className="all-products-grid-container">
       <div className="row">
         {products.map((product) => (
-          <div className="column">
-            <ProductCard name={product.name} price={product.price} />
+          <div
+            className="column"
+            onClick={() => {
+              setShowModal(true);
+              setCurrentCard(product);
+            }}
+          >
+            <ProductCard product={product} />
           </div>
         ))}
-
-        <div className="column">
-          <ProductCard />
-        </div>
-
-        <div className="column">
-          <ProductCard />
-        </div>
-
-        <div className="column">
-          <ProductCard />
-        </div>
-
-        <div className="column">
-          <ProductCard />
-        </div>
-
-        <div className="column">
-          <ProductCard />
-        </div>
-
-        <div className="column">
-          <ProductCard />
-        </div>
-
-        <div className="column">
-          <ProductCard />
-        </div>
       </div>
+      <div
+        onClick={() => {
+          setShowModal(undefined);
+          setCurrentCard(undefined);
+        }}
+      >
+        <BackgroundBlur showModal={showModal} />
+      </div>
+      <ProductModal showModal={showModal} currentCard={currentCard} />
     </div>
   );
 }

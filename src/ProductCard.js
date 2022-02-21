@@ -1,7 +1,8 @@
 import React from "react";
 import "./ProductCard.css";
 
-function ProductCard({ name, price }) {
+function ProductCard({ product }) {
+  const { id, name, category, price, description, stock } = product;
   return (
     <div className="product-card-container">
       <img
