@@ -1,0 +1,10 @@
+.product-card-container {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.product-image-container {
+  width: 100%;
+  height: 80%;
+}
