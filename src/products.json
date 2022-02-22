@@ -12,21 +12,24 @@
     "name": "Test Product 2",
     "category": "Keycaps",
     "price": "1000 2",
-    "description": "Here is some description for testing purposes 2"
+    "description": "Here is some description for testing purposes 2",
+    "stock": "In Stock"
   },
   {
     "id": 3,
     "name": "Test Product 3",
     "category": "Keycaps",
     "price": "1000 3",
-    "description": "Here is some description for testing purposes 3"
+    "description": "Here is some description for testing purposes 3",
+    "stock": "In Stock"
   },
   {
     "id": 4,
     "name": "Test Product 4",
     "category": "Keycaps",
     "price": "1000 4",
-    "description": "Here is some description for testing purposes 3"
+    "description": "Here is some description for testing purposes 3",
+    "stock": "In Stock"
   },
   {
     "id": 1,
@@ -41,21 +44,24 @@
     "name": "Test Product 2",
     "category": "Keycaps",
     "price": "1000 2",
-    "description": "Here is some description for testing purposes 2"
+    "description": "Here is some description for testing purposes 2",
+    "stock": "In Stock"
   },
   {
     "id": 3,
     "name": "Test Product 3",
     "category": "Keycaps",
     "price": "1000 3",
-    "description": "Here is some description for testing purposes 3"
+    "description": "Here is some description for testing purposes 3",
+    "stock": "In Stock"
   },
   {
     "id": 4,
     "name": "Test Product 4",
     "category": "Keycaps",
     "price": "1000 4",
-    "description": "Here is some description for testing purposes 3"
+    "description": "Here is some description for testing purposes 3",
+    "stock": "In Stock"
   },
   {
     "id": 1,
@@ -70,21 +76,24 @@
     "name": "Test Product 2",
     "category": "Keycaps",
     "price": "1000 2",
-    "description": "Here is some description for testing purposes 2"
+    "description": "Here is some description for testing purposes 2",
+    "stock": "In Stock"
   },
   {
     "id": 3,
     "name": "Test Product 3",
     "category": "Keycaps",
     "price": "1000 3",
-    "description": "Here is some description for testing purposes 3"
+    "description": "Here is some description for testing purposes 3",
+    "stock": "In Stock"
   },
   {
     "id": 4,
     "name": "Test Product 4",
     "category": "Keycaps",
     "price": "1000 4",
-    "description": "Here is some description for testing purposes 3"
+    "description": "Here is some description for testing purposes 3",
+    "stock": "In Stock"
   },
   {
     "id": 1,
@@ -99,21 +108,24 @@
     "name": "Test Product 2",
     "category": "Keycaps",
     "price": "1000 2",
-    "description": "Here is some description for testing purposes 2"
+    "description": "Here is some description for testing purposes 2",
+    "stock": "In Stock"
   },
   {
     "id": 3,
     "name": "Test Product 3",
     "category": "Keycaps",
     "price": "1000 3",
-    "description": "Here is some description for testing purposes 3"
+    "description": "Here is some description for testing purposes 3",
+    "stock": "In Stock"
   },
   {
     "id": 4,
     "name": "Test Product 4",
     "category": "Keycaps",
     "price": "1000 4",
-    "description": "Here is some description for testing purposes 3"
+    "description": "Here is some description for testing purposes 3",
+    "stock": "In Stock"
   },
   {
     "id": 1,
@@ -128,6 +140,7 @@
     "name": "Test Product 2",
     "category": "Keycaps",
     "price": "1000 2",
-    "description": "Here is some description for testing purposes 2"
+    "description": "Here is some description for testing purposes 2",
+    "stock": "In Stock"
   }
 ]
