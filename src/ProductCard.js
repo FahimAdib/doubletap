@@ -12,6 +12,7 @@ function ProductCard({ product }) {
       ></img>
       <div>{name}</div>
       <div>{price}</div>
+      <div>{stock}</div>
     </div>
   );
 }

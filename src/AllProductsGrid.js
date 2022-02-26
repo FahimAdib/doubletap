@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import ProductCard from "./ProductCard";
 import "./AllProductsGrid.css";
 import ProductModal from "./ProductModal";
-import BackgroundBlur from "./BackgroundBlur";
 import products from "./products.json";
-import { motion, AnimatePresence } from "framer-motion";
 
 function AllProductsGrid() {
   const [showModal, setShowModal] = useState();
@@ -26,15 +24,12 @@ function AllProductsGrid() {
           </div>
         ))}
       </div>
-      <div
-        onClick={() => {
-          setShowModal(undefined);
-          setCurrentCard(undefined);
-        }}
-      >
-        <BackgroundBlur showModal={showModal} />
-      </div>
-      <ProductModal showModal={showModal} currentCard={currentCard} />
+      <ProductModal
+        showModal={showModal}
+        currentCard={currentCard}
+        setShowModal={setShowModal}
+        setCurrentCard={setCurrentCard}
+      />
     </div>
   );
 }

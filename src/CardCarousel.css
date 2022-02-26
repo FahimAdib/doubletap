@@ -1,0 +1,42 @@
+.carousel-container {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-header {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  margin-left: 1.5%;
+  color: #0e1f33;
+}
+
+.carousel {
+  width: 80%;
+}
+
+.carousel-card {
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-bottom: 0px;
+  border-radius: 2.5%;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+}
+
+.carousel-card:hover {
+  transform: scale(1.08, 1.08);
+  transition: 180ms ease-in-out;
+}
+
+.padding-zero {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.z-index-0 {
+  z-index: 0;
+}

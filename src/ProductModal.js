@@ -2,20 +2,36 @@ import React, { useState } from "react";
 import "./ProductModal.css";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
+import BackgroundBlur from "./BackgroundBlur";
 
 import { motion, AnimatePresence, addScaleCorrection } from "framer-motion";
 
-function ProductModal({ showModal, currentCard }) {
+function ProductModal({
+  showModal,
+  currentCard,
+  setShowModal,
+  setCurrentCard,
+}) {
   const [currentPreview, setCurrentPreview] = useState();
 
   return (
     <div className="product-modal">
+      <div
+        onClick={() => {
+          setCurrentPreview(undefined);
+          setShowModal(undefined);
+          setCurrentCard(undefined);
+        }}
+      >
+        <BackgroundBlur showModal={showModal} />
+      </div>
+
       <AnimatePresence initial={false}>
         {showModal && (
           <motion.div
             initial={{ y: "50%", opacity: 0, scale: 0.5 }}
             animate={{ y: "0%", opacity: 1, scale: 1 }}
-            exit={{ y: "0%", opacity: 0, scale: 1 }}
+            exit={{ y: "50%", opacity: 0, scale: 0.5 }}
             transition={{ type: "spring", duration: 0.6, bounce: 0.35 }}
             className="product-modal-container"
           >
@@ -51,6 +67,31 @@ function ProductModal({ showModal, currentCard }) {
                     )
                   }
                 ></img>
+                {currentCard.images > 2 ? (
+                  <img
+                    src={require(`./images/products/${currentCard.id}/3.jpg`)}
+                    onClick={() =>
+                      setCurrentPreview(
+                        `./images/products/${currentCard.id}/3.jpg`
+                      )
+                    }
+                  ></img>
+                ) : (
+                  <div></div>
+                )}
+
+                {currentCard.images > 3 ? (
+                  <img
+                    src={require(`./images/products/${currentCard.id}/4.jpg`)}
+                    onClick={() =>
+                      setCurrentPreview(
+                        `./images/products/${currentCard.id}/4.jpg`
+                      )
+                    }
+                  ></img>
+                ) : (
+                  <div></div>
+                )}
               </div>
             </div>
             <div className="product-text-box">
