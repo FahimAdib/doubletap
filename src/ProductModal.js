@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ProductModal.css";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, addScaleCorrection } from "framer-motion";
 
 function ProductModal({ showModal, currentCard }) {
+  const [currentPreview, setCurrentPreview] = useState();
+
   return (
     <div className="product-modal">
       <AnimatePresence initial={false}>
@@ -16,7 +20,38 @@ function ProductModal({ showModal, currentCard }) {
             className="product-modal-container"
           >
             <div className="product-modal-image">
-              <img src={require("./images/products/1/1.jpg")}></img>
+              <div className="image-preview">
+                {currentPreview ? (
+                  <Zoom>
+                    <img src={require(`${currentPreview}`)}></img>
+                  </Zoom>
+                ) : (
+                  <Zoom>
+                    <img
+                      src={require(`./images/products/${currentCard.id}/1.jpg`)}
+                    ></img>
+                  </Zoom>
+                )}
+              </div>
+
+              <div className="image-options">
+                <img
+                  src={require(`./images/products/${currentCard.id}/1.jpg`)}
+                  onClick={() =>
+                    setCurrentPreview(
+                      `./images/products/${currentCard.id}/1.jpg`
+                    )
+                  }
+                ></img>
+                <img
+                  src={require(`./images/products/${currentCard.id}/2.jpg`)}
+                  onClick={() =>
+                    setCurrentPreview(
+                      `./images/products/${currentCard.id}/2.jpg`
+                    )
+                  }
+                ></img>
+              </div>
             </div>
             <div className="product-text-box">
               <div>{currentCard.id}</div>
