@@ -43,7 +43,7 @@ function CardCarousel() {
             infinite={true}
             itemClass={"padding-zero"}
             containerClass={"z-index-0"}
-            autoPlaySpeed={99999999}
+            autoPlaySpeed={5000}
             arrows={true}
           >
             {products.map((product) => (

@@ -6,12 +6,14 @@
     "price": "1000",
     "description": "Here is some description for testing purposes",
     "stock": "In Stock",
-    "images": 2
+    "images": 2,
+    "carousel": "true",
+    "serial": 1
   },
   {
     "id": 2,
     "name": "Test Product 2",
-    "category": "Keycaps",
+    "category": "Test1",
     "price": "1000 2",
     "description": "Here is some description for testing purposes 2",
     "stock": "In Stock",
@@ -20,7 +22,7 @@
   {
     "id": 3,
     "name": "Test Product 3",
-    "category": "Keycaps",
+    "category": "Test2",
     "price": "1000 3",
     "description": "Here is some description for testing purposes 3",
     "stock": "In Stock",
@@ -38,7 +40,7 @@
   {
     "id": 2,
     "name": "Test Product 2",
-    "category": "Keycaps",
+    "category": "Test1",
     "price": "1000 2",
     "description": "Here is some description for testing purposes 2",
     "stock": "In Stock",
@@ -47,7 +49,7 @@
   {
     "id": 3,
     "name": "Test Product 3",
-    "category": "Keycaps",
+    "category": "Test2",
     "price": "1000 3",
     "description": "Here is some description for testing purposes 3",
     "stock": "In Stock",
@@ -65,7 +67,7 @@
   {
     "id": 2,
     "name": "Test Product 2",
-    "category": "Keycaps",
+    "category": "Test1",
     "price": "1000 2",
     "description": "Here is some description for testing purposes 2",
     "stock": "In Stock",
@@ -74,7 +76,7 @@
   {
     "id": 3,
     "name": "Test Product 3",
-    "category": "Keycaps",
+    "category": "Test2",
     "price": "1000 3",
     "description": "Here is some description for testing purposes 3",
     "stock": "In Stock",
@@ -92,7 +94,7 @@
   {
     "id": 2,
     "name": "Test Product 2",
-    "category": "Keycaps",
+    "category": "Test1",
     "price": "1000 2",
     "description": "Here is some description for testing purposes 2",
     "stock": "In Stock",
@@ -101,7 +103,7 @@
   {
     "id": 3,
     "name": "Test Product 3",
-    "category": "Keycaps",
+    "category": "Test2",
     "price": "1000 3",
     "description": "Here is some description for testing purposes 3",
     "stock": "In Stock",
