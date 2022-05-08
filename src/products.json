@@ -1,14 +1,48 @@
 [
   {
-    "id": 1,
-    "name": "Test Product",
+    "id": 3,
+    "name": "Hammerhead Dark Keycaps",
     "category": "Keycaps",
-    "price": "1000",
+    "price": "৳1000",
+    "description": "Material: ABS Keys: 173 Process: Doubleshot Profile: Cherry",
+    "stock": "In Stock",
+    "images": 2
+  },
+  {
+    "id": 2,
+    "name": "Test Product 2",
+    "category": "Test1",
+    "price": "৳2000",
+    "description": "Here is some description for testing purposes 2",
+    "stock": "Out of Stock",
+    "images": 3
+  },
+  {
+    "id": 3,
+    "name": "Test Product 3",
+    "category": "Test2",
+    "price": "৳3000",
+    "description": "Here is some description for testing purposes 3",
+    "stock": "In Stock",
+    "images": 4
+  },
+  {
+    "id": 1,
+    "name": "Test Product Sami",
+    "category": "Keycaps",
+    "price": "৳4000",
     "description": "Here is some description for testing purposes",
     "stock": "In Stock",
-    "images": 2,
-    "carousel": "true",
-    "serial": 1
+    "images": 2
+  },
+  {
+    "id": 2,
+    "name": "Test Product Gran",
+    "category": "Test1",
+    "price": "1000 2",
+    "description": "Here is some description for testing purposes 2",
+    "stock": "In Stock",
+    "images": 3
   },
   {
     "id": 2,
@@ -20,10 +54,28 @@
     "images": 3
   },
   {
+    "id": 1,
+    "name": "Test Product",
+    "category": "Keycaps",
+    "price": "৳1000",
+    "description": "Here is some description<br>for testing purposes",
+    "stock": "In Stock",
+    "images": 2
+  },
+  {
+    "id": 2,
+    "name": "Test Product 2",
+    "category": "Test1",
+    "price": "৳2000",
+    "description": "Here is some description for testing purposes 2",
+    "stock": "In Stock",
+    "images": 3
+  },
+  {
     "id": 3,
     "name": "Test Product 3",
     "category": "Test2",
-    "price": "1000 3",
+    "price": "৳3000",
     "description": "Here is some description for testing purposes 3",
     "stock": "In Stock",
     "images": 4
@@ -32,7 +84,7 @@
     "id": 1,
     "name": "Test Product",
     "category": "Keycaps",
-    "price": "1000",
+    "price": "৳4000",
     "description": "Here is some description for testing purposes",
     "stock": "In Stock",
     "images": 2
@@ -47,10 +99,37 @@
     "images": 3
   },
   {
+    "id": 2,
+    "name": "Test Product 2",
+    "category": "Test1",
+    "price": "1000 2",
+    "description": "Here is some description for testing purposes 2",
+    "stock": "In Stock",
+    "images": 3
+  },
+  {
+    "id": 1,
+    "name": "Test Product",
+    "category": "Keycaps",
+    "price": "৳1000",
+    "description": "Here is some description<br>for testing purposes",
+    "stock": "In Stock",
+    "images": 2
+  },
+  {
+    "id": 2,
+    "name": "Test Product 2",
+    "category": "Test1",
+    "price": "৳2000",
+    "description": "Here is some description for testing purposes 2",
+    "stock": "In Stock",
+    "images": 3
+  },
+  {
     "id": 3,
     "name": "Test Product 3",
     "category": "Test2",
-    "price": "1000 3",
+    "price": "৳3000",
     "description": "Here is some description for testing purposes 3",
     "stock": "In Stock",
     "images": 4
@@ -59,7 +138,7 @@
     "id": 1,
     "name": "Test Product",
     "category": "Keycaps",
-    "price": "1000",
+    "price": "৳4000",
     "description": "Here is some description for testing purposes",
     "stock": "In Stock",
     "images": 2
@@ -74,24 +153,6 @@
     "images": 3
   },
   {
-    "id": 3,
-    "name": "Test Product 3",
-    "category": "Test2",
-    "price": "1000 3",
-    "description": "Here is some description for testing purposes 3",
-    "stock": "In Stock",
-    "images": 4
-  },
-  {
-    "id": 1,
-    "name": "Test Product",
-    "category": "Keycaps",
-    "price": "1000",
-    "description": "Here is some description for testing purposes",
-    "stock": "In Stock",
-    "images": 2
-  },
-  {
     "id": 2,
     "name": "Test Product 2",
     "category": "Test1",
@@ -99,14 +160,5 @@
     "description": "Here is some description for testing purposes 2",
     "stock": "In Stock",
     "images": 3
-  },
-  {
-    "id": 3,
-    "name": "Test Product 3",
-    "category": "Test2",
-    "price": "1000 3",
-    "description": "Here is some description for testing purposes 3",
-    "stock": "In Stock",
-    "images": 4
   }
 ]

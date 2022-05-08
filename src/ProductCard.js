@@ -10,9 +10,15 @@ function ProductCard({ product }) {
         alt="keycaps"
         src="https://d2j6dbq0eux0bg.cloudfront.net/images/71133679/2898931095.jpg"
       ></img>
-      <div>{name}</div>
-      <div>{price}</div>
-      <div>{stock}</div>
+      <div className="product-card-details">
+        <div className="product-name">{name}</div>
+        <div className="product-price">{price}</div>
+        {stock === "In Stock" ? (
+          <div className="product-stock-green">{stock}</div>
+        ) : (
+          <div className="product-stock-red">{stock}</div>
+        )}
+      </div>
     </div>
   );
 }

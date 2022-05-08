@@ -5,9 +5,9 @@
 }
 
 .carousel-header {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bolder;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-left: 1.5%;
   color: #0e1f33;
 }
@@ -21,12 +21,11 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding-bottom: 0px;
   border-radius: 2.5%;
-  overflow: hidden;
   transition: 200ms ease-in-out;
 }
 
 .carousel-card:hover {
-  transform: scale(1.08, 1.08);
+  transform: scale(1.025, 1.025);
   transition: 180ms ease-in-out;
 }
 
@@ -35,8 +34,21 @@
   margin-bottom: 15px;
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 
 .z-index-0 {
   z-index: 0;
+}
+
+.test {
+  width: 22%;
+  height: 100%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2.5%;
+  transition: 200ms ease-in-out;
+  display: flex;
 }

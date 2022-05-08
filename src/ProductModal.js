@@ -35,6 +35,7 @@ function ProductModal({
             transition={{ type: "spring", duration: 0.6, bounce: 0.35 }}
             className="product-modal-container"
           >
+            <div className="product-title">{currentCard.name}</div>
             <div className="product-modal-image">
               <div className="image-preview">
                 {currentPreview ? (
@@ -95,11 +96,13 @@ function ProductModal({
               </div>
             </div>
             <div className="product-text-box">
-              <div>{currentCard.id}</div>
-              <div>{currentCard.name}</div>
-              <div>{currentCard.category}</div>
-              <div>{currentCard.price}</div>
-              <div>{currentCard.description}</div>
+              <div className="product-modal-stock">{currentCard.stock}</div>
+              <div className="product-modal-price">{currentCard.price}</div>
+              <div className="product-modal-order">Place Order</div>
+              <div className="product-modal-details">Product Details</div>
+              <div className="product-modal-description">
+                {currentCard.description}
+              </div>
             </div>
           </motion.div>
         )}
